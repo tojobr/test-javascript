@@ -22,6 +22,6 @@ function isTwin(a, b) {
 	return indexes.every(i => i >= 0);
 }
 
-console.log(check('Hello', 'World'));
-console.log(check('abc', 'bAc'));
-console.log(check('uOtlook', 'Lookout'));
+console.log(isTwin('Hello', 'World'));
+console.log(isTwin('abc', 'bAc'));
+console.log(isTwin('uOtlook', 'Lookout'));
